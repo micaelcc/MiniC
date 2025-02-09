@@ -12,7 +12,7 @@ CompoundStmt   ::= '{' Stmt* '}'
 
 Expr           ::= DeclExpr ';'
                 | AssignExpr ';'
-DeclExpr := Types 'IDENTIFIER' (AssignExprTail)?
+DeclExpr       ::= Types 'IDENTIFIER' (AssignExprTail)?
 Types          ::= 'int' 
                  | 'float'
                  | 'char'
